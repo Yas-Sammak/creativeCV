@@ -1,0 +1,30 @@
+
+.social-media-icons {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.social-media-icons li {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
+  width: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+  background-color: #b6b5b5;
+}
+
+.social-media-icons li a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+}

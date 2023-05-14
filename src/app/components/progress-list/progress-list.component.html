@@ -1,0 +1,11 @@
+<div>
+  <ul class="no-bullets">
+    <li *ngFor="let item of items">
+      {{ item.name }}
+      <div class="progress">
+        <div class="progress-bar" role="progressbar" [style.width.%]="item.progress" attr.aria-valuenow="{{ item.progress }}" aria-valuemin="0" aria-valuemax="100">{{ item.progress }}%</div>
+      </div>
+    </li>
+  </ul>
+  <!-- <button (click)="addItem()">Add Item</button> -->
+</div>

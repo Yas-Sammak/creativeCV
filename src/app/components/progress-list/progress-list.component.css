@@ -1,0 +1,8 @@
+.progress {
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+
+.no-bullets {
+  list-style: none;
+}
